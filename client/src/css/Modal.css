@@ -1,0 +1,245 @@
+.modal-btn {
+    background-color:transparent;
+    border: 1px solid gold;
+    border-radius: 5px;
+    font-family: 'Games', sans-serif;
+    color: goldenrod;
+    font-size: 18px;
+    padding: 10px 28px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.modal-btn:hover{
+    border:solid 1px black;
+    height:40px;
+    font-family: 'Games';
+    color: black;
+    background:goldenrod;
+    border-color: goldenrod;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+  }
+
+.modal-title{
+    color:gold;
+    font-family: 'Games', sans-serif;
+    font-weight:300;
+    display: block;
+    text-align: center;
+}
+
+.modal-question {
+    color:silver;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-labels {
+    color: gold;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.modal-labels-light {
+    color: goldenrod;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.modal-label-desc {
+    color: gold;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.modal-input {
+    color: silver;
+    background-color: black;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.modal-desc {
+    color: silver;
+    background-color: black;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    width: 350px;
+    height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fact-modal-dialog {
+    position: absolute;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -400px;
+    min-width: 1200px;
+    min-height: 400px;
+  }
+
+  .fact-dialog {
+    background-color: rgba(0,0,0,1);
+    border: 2px solid gold;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .fact-dialog-light {
+    background-color: white;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .discuss-modal-dialog {
+    position: fixed;
+    min-width: 1200px;
+    min-height: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .scrollable-modal {
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -120px;
+  }
+
+  .scrollable-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .scrollable-container-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .market-value-buttons {
+    display: flex;
+    gap: 20px;
+    float: right;
+    padding-right: 20px;
+  }
+
+  .bin-btn-container {
+    display: flex;
+    gap: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    float: right;
+    margin-left: 200px;
+  }
+
+  .bin-forum {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    color: orangered;
+    cursor: pointer;
+  }
+
+  .small-right-padding {
+    margin-right: 20px;
+  }
+
+  .bin-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    color: orangered;
+    float: right;
+    margin-left: 200px;
+    cursor: pointer;
+  }
+
+  .bin-btn:hover{
+    border:solid 1px black;
+    height:40px;
+    font-family: 'Games';
+    color: black;
+    background:crimson;
+    border-color: crimson;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+  }
+
+  .bin-forum:hover{
+    border:solid 1px black;
+    height:40px;
+    font-family: 'Games';
+    color: black;
+    background:crimson;
+    border-color: crimson;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+  }
+
+  .deletion-dialog {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20%;
+  }
+
+  .deletion-dialog2 {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10%;
+  }
+
+  .deletion-dialog3 {
+    padding: 6%;
+  }
+
+  .deletion-dialog4 {
+    padding: 15%;
+  }
+
+  .modal-btns-and-msg {
+    display: flex;
+    gap:10px;
+  }
+
+  .discussion-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .discussion-flex2 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+  }
+
+  .scrollable-marketvalue {
+    overflow-y: auto;
+    max-height: 200px;
+  }

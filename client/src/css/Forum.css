@@ -1,0 +1,78 @@
+
+.forum-card {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.forum-icons {
+    display: flex;
+    align-items: flex-end;
+    color: silver;
+}
+
+.forum-icons-light {
+    display: flex;
+    align-items: flex-end;
+    color: black;
+}
+
+.discussion-wrapper {
+    position: fixed;
+}
+
+.misc-inline-title {
+    display: inline;
+    color: goldenrod;
+    font-family: Games;
+    font-size: 30px;
+}
+
+.misc-span {
+    float: right;
+    display: flex;
+    padding-right: 100px;
+    align-items: flex-end;
+}
+
+.misc-inline-text {
+    display: inline;
+    color: silver;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    float: right;
+    padding-top: 30px;
+}
+
+.forum-user-link {
+    color: gold;
+    cursor: pointer;
+}
+
+.forum-user-link-light {
+    color: blue;
+    cursor: pointer;
+}
+
+.forum-desc {
+    min-width: 500px;
+    min-height: 200px;
+}
+.forum-label {
+    min-width: 400px;
+}
+
+.start-thread-dialog {
+    position: fixed;
+    display: flex;
+    left: 200px;
+    top: 120px;
+    min-width: 1200px;
+    min-height: 400px;
+    z-index: 1000000;
+  }
+
+  .start-thread-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }

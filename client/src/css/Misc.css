@@ -1,0 +1,59 @@
+.margin-top-s {
+    margin-top: 10px;
+}
+
+.margin-left-s {
+    margin-left: 10px;
+}
+
+.title-and-photo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.centered {
+    justify-content: center;
+}
+
+.baseline {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.margin-left-xl {
+    margin-left: 100px;
+}
+
+.margin-top-l {
+    margin-top: 50px;
+}
+
+.margin-bottom-s {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-m {
+    margin-bottom: 20px;
+}
+
+.flex-containerr {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+.pointer {
+    cursor: pointer;
+    color: goldenrod;
+}
+
+.medium-photo {
+    max-width: 170px;
+    max-height: 170px;
+}

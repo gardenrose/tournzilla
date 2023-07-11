@@ -1,0 +1,98 @@
+.rating-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+}
+
+.rank-btn {
+    text-align: left;
+    width: 500px;
+    height: 35px;
+    background: black;
+    color: white;
+    border: 0.5px solid silver;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rank-btn-light {
+    text-align: left;
+    width: 500px;
+    height: 35px;
+    border-radius: 2px;
+    border: 0.5px solid #062d7f;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rank-btn:hover, .rank-btn-light:hover {
+    color: goldenrod;
+}
+
+.rank-heading {
+    color: gold;
+}
+
+.rank-heading-light {
+    color: #062d7f;
+}
+
+.rank-image {
+    max-width: 30px;
+    max-height: 30px;
+    align-self: center;
+}
+
+.active-match-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.active-match {
+    text-align: left;
+    height: 35px;
+    width: 200px;
+    background: black;
+    color: white;
+    border: 0.5px solid silver;
+    border-radius: 2px;
+}
+
+.active-match-light {
+    text-align: left;
+    height: 35px;
+    width: 200px;
+    border-radius: 2px;
+    border: 0.5px solid #062d7f;
+}
+
+.wintrophy {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.times-champion {
+    display: inline;
+    color: gold;
+    font-family: Games;
+    font-size: 40px;
+}
+
+.times-champion-light {
+    display: inline;
+    color: #062d7f;
+    font-family: Games;
+    font-size: 40px;
+}
+
+.filters-span {
+    padding-left: 100px;
+}

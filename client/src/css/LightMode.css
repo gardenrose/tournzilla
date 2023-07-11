@@ -1,0 +1,296 @@
+@import "NavBar.css";
+@import "Homepage.css";
+
+.input-checkbox:checked + #main-title{
+	background: red;
+}
+
+.blankspace-light {
+    background: white;
+    background-size: cover;
+    margin-left: 62px;
+    margin-top: -10px;
+    min-height: 100vh;
+}
+
+  .card-light {
+    border: 0.5px solid #062d7f;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+  }
+
+.card-desc-light {
+    color: black;
+}
+
+.card-title-light {
+    text-decoration: none;
+    font-family: 'Games';
+    font-size: 25px;
+    color: goldenrod;
+    letter-spacing: 2px;
+}
+
+.main-title-light {
+    font-style: italic;
+    color: gold;
+    margin-top: 0;
+    font-family: 'Games';
+    font-size: 50px;
+    letter-spacing: 2px;
+    background-color: #062d7f;
+}
+
+.main-subtitle-light {
+    font-style: italic;
+    color: darkkhaki;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: #062d7f;
+    margin-top: -52.5px;
+}
+
+.filter-input-light {
+    color: gray;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+option {
+    background-color: white;
+    color: black;
+}
+
+.filter-labels-light {
+    color: goldenrod;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.option-light {
+    color: white;
+    background-color: white;
+}
+
+.news-text-light {
+    color: black;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.6;
+    background-color: transparent;
+  }
+
+  .contact-subtitle-light {
+    text-align: center;
+    color: #062d7f;
+}
+
+.profile-blankspace-light {
+    background: white;
+    background-size: cover;
+    margin-left: 62px;
+    margin-top: -10px;
+    min-height: 100vh;
+}
+
+.terms-card-light {
+    border-radius: 6px;
+    display: inline-block;
+    height: 667px;
+    margin: 1rem;
+    width: 90%;
+    align-items: center;
+    background: white;
+
+}
+
+.terms-title-light {
+    text-align: center;
+    font-family: 'Games';
+    color: goldenrod;
+    letter-spacing: 2px;
+}
+
+.terms-card-light p, ul, li, h3, h2 {
+    color: black;
+}
+
+.circule-light{
+    border-radius:50%;
+    border: goldenrod solid 4px;
+    height:60px;
+    width:60px;
+    background-color: transparent;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.player-name-link-light {
+    color: #062d7f;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .tournament-basic-light {
+    color: #062d7f;
+    text-decoration: none;
+  }
+
+  .player-name-link-light:hover {
+    text-decoration: underline;
+    color: goldenrod;
+  }
+
+  .profile-card-light {
+    border-radius: 6px;
+    display: inline-block;
+    height: 667px;
+    margin: 1rem;
+    width: 400px;
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+    border: #062d7f 1px solid;
+}
+
+.profile-username-light{
+    color:goldenrod;
+    font-family: 'Games', sans-serif;
+    font-weight:300;
+    display: inline;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.player-stats-card-light {
+    border-radius: 6px;
+    height: 667px;
+    width: 850px;
+    margin-top: 16px;
+    border: #062d7f 1px solid;
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+    flex-basis: 100%;
+}
+
+.player-profile-titles-light {
+    color:goldenrod;
+    font-family: 'Games', sans-serif;
+    font-size: 28px;
+    font-weight:300;
+    display: inline;
+    padding-left: 10px;
+}
+
+.profile-count-light {
+    display: inline;
+    color: #333333;
+    justify-content: center;
+}
+
+.profile-card2-light{
+    border-radius: 6px;
+    min-height: 200px;
+    width: 400px;
+    margin: 1rem;
+    border: #062d7f 1px solid;
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+
+}
+
+.profile-card3-light{
+    border-radius: 6px;
+    height: 200px;
+    width: 400px;
+    margin: 1rem;
+    border: #062d7f 1px solid;
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+}
+
+.profile-card4-light{
+    border-radius: 6px;
+    height: 425px;
+    width: 850px;
+    margin: 1rem;
+    border: #062d7f 1px solid;
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+    flex-basis: 100%;
+    flex-wrap: wrap;
+
+}
+
+.comment-input-light {
+    color: grey;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 250px;
+    font-size: 15px;
+    width: 900px;
+    height: 150px;
+}
+
+.news-comment-light {
+    border: silver 1px solid;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 400px;
+    border-radius: 5px;
+    display: block;
+}
+
+.news-comment-light p{
+    color: black;
+}
+
+.forum-helper-light{
+    border-radius: 6px;
+    height: 200px;
+    width: 400px;
+    margin: 1rem;
+    border: #062d7f 1px solid;
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+}
+
+.calendar-input-light {
+    padding: 10px;
+    color: grey;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+  }
+
+  .match-side-light {
+    text-align: center;
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0.5px solid #062d7f;
+    font-weight: bold;
+    background-color: #fff2cc;
+}
+
+.side-number-light {
+    font-weight: bold;
+    color: #062d7f;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.score-change-light {
+    background-color: #062d7f;
+    color: white;
+    font-weight: bold;
+}
+
+.pointer-button {
+    cursor: pointer;
+}

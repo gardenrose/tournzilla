@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e7a76a8.css",
+    "main.js": "/static/js/main.5ce04112.js",
+    "static/media/insta.png": "/static/media/insta.a1950cc4577ce1f1514a.png",
+    "static/media/community_0.png": "/static/media/community_0.6be94559c4e82e4b8ecd.png",
+    "static/media/factdog.jpg": "/static/media/factdog.5255a60a3e9e78bd12e6.jpg",
+    "static/media/silver-medal.png": "/static/media/silver-medal.2f9812e576b98e86c69e.png",
+    "static/media/book.png": "/static/media/book.8fcfef747cc85f3c8721.png",
+    "static/media/bronze-medal.webp": "/static/media/bronze-medal.ecb2f8cefa53e7add819.webp",
+    "static/media/logo.png": "/static/media/logo.889e8872698b77ff174f.png",
+    "static/media/tournamentImg.jpg": "/static/media/tournamentImg.6a105a50f9c2ede08071.jpg",
+    "static/media/globe.png": "/static/media/globe.32af2b8720e447748a87.png",
+    "static/media/formationimg.svg.png": "/static/media/formationimg.svg.86b486408e140574eac6.png",
+    "static/media/worldcup.jpg": "/static/media/worldcup.716aa4bf4387fdac8c13.jpg",
+    "static/media/male.png": "/static/media/male.f45fecdfb1fea22672d3.png",
+    "static/media/female.png": "/static/media/female.06bc10ba3d35a09319df.png",
+    "static/media/trophy.webp": "/static/media/trophy.441ea10d4357d6850e16.webp",
+    "index.html": "/index.html",
+    "main.2e7a76a8.css.map": "/static/css/main.2e7a76a8.css.map",
+    "main.5ce04112.js.map": "/static/js/main.5ce04112.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e7a76a8.css",
+    "static/js/main.5ce04112.js"
+  ]
+}

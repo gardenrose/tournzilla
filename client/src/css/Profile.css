@@ -1,0 +1,345 @@
+.profile-blankspace {
+    background-image: url("../images/worldcup.jpg");
+    margin-left: 62px;
+    margin-top: -10px;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.profile-fa{
+    color: goldenrod;
+    float: right;
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.profile-username{
+    color:gold;
+    font-family: 'Games', sans-serif;
+    font-weight:300;
+    display: inline;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.followers{
+    color:#666B7D;
+    font-size:16px;
+    margin-top:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:100;
+    text-align: center;
+}
+
+.profile-realname{
+    color:#7C8097;
+    font-size:20px;
+    font-weight:100;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile-desc{
+    font-size:16px;
+    margin-right: 65px;
+    color:#B7B8C0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.profile-flag {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+hr{
+    border-color:#7C8097;
+    width:90%;
+    margin-top:24px;
+    margin-bottom:24px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-btn{
+    background-color:transparent;
+    border: 1px solid mediumseagreen;
+    border-radius: 5px;
+    font-family: 'Games', sans-serif;
+    color: mediumseagreen;
+    font-size: 18px;
+    padding: 10px 28px;
+}
+
+.profile-btn:hover{
+    border:solid 1px black;
+    height:40px;
+    font-family: 'Games';
+    color: black;
+    background: mediumseagreen;
+    border-color: mediumseagreen;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+    cursor: pointer;
+}
+
+.circule{
+    border-radius:50%;
+    border: gold solid 4px;
+    height:60px;
+    width:60px;
+    background-color: transparent;
+    box-shadow: 0 13px 26px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.16);
+    display: flex;
+    margin-bottom: 5px;
+}
+
+
+.profile-container {
+    width: 1200px;
+    margin-left: 50px;
+    display: flex;
+}
+
+
+.profile-card {
+    border-radius: 6px;
+    display: inline-block;
+    height: 667px;
+    margin: 1rem;
+    width: 400px;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+
+}
+
+.profile-card2{
+    border-radius: 6px;
+    min-height: 200px;
+    width: 400px;
+    margin: 1rem;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+
+}
+
+.profile-card3{
+    border-radius: 6px;
+    height: 200px;
+    width: 400px;
+    margin: 1rem;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+}
+
+.profile-card4{
+    border-radius: 6px;
+    height: 425px;
+    width: 850px;
+    margin: 1rem;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+    flex-basis: 100%;
+    flex-wrap: wrap;
+
+}
+
+.profile-main {
+    display: inline;
+    justify-content: space-between;
+}
+
+.player-profile-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 26px;
+}
+
+.profile{
+    border-radius:100%;
+    margin-top:60px;
+    width:132px;
+    height:128px;
+}
+
+.profile-gender {
+    display: inline;
+    margin-left: 20px;
+    padding-right: 10px;
+    max-width:60px;
+    max-height:60px;
+}
+
+.team-logo-icon {
+    margin-left: 100px;
+    max-width:80px;
+    max-height:80px;
+}
+
+.profile-team-icon {
+    max-width:80px;
+    max-height:80px;
+}
+
+.profile-count {
+    display: inline;
+    color: white;
+    justify-content: center;
+}
+
+.profile-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.profile-grid h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-span {
+    display: flex;
+}
+
+.profile {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.profile-parts {
+    display: inline;
+    align-items: flex-end;
+}
+
+.profile-labels {
+    margin-top: -40px;
+    display: flex;
+}
+
+.profile-label-text {
+    color: #666B7D;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+.profile-label-text2 {
+    color: #666B7D;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.flex-cards {
+    display: grid;
+    height: 200px;
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: 240px;
+}
+
+.profile-social-media-title {
+    color:mediumseagreen;
+    font-family: 'Games', sans-serif;
+    font-weight:300;
+    display: inline;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.profile-social-media {
+    margin-left: 10px;
+}
+
+.social-media-labels {
+    color: #666B7D;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profile-links {
+    color: goldenrod;
+}
+
+.player-photo{
+    max-height:350px;
+    max-width:270px;
+    margin-left: 65px;
+}
+
+.player-stats-card {
+    border-radius: 6px;
+    height: 670px;
+    width: 850px;
+    margin-top: 16px;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+    flex-basis: 100%;
+}
+
+.player-profile-titles {
+    color:gold;
+    font-family: 'Games', sans-serif;
+    font-size: 28px;
+    font-weight:300;
+    display: inline;
+    padding-left: 10px;
+}
+
+.best-player-values { 
+    display: inline;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    min-width: 160px;
+    margin-left: 300px;
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .player-edit-dropdown:hover .dropdown-content {display: block;}
+
+  .modal-dialog {
+    position: absolute;
+    display: flex;
+    left: 200px;
+    top: 120px;
+    min-width: 1200px;
+    min-height: 400px;
+  }
+
+  .profile-dialog {
+    z-index: 999;
+    position: fixed;
+    background-color: rgba(0,0,0,1);
+    border: 2px solid gold;
+    border-radius: 10px;
+    display: flex;  
+  }

@@ -1,0 +1,95 @@
+.blankspace {
+  background-image: url("../images/worldcup.jpg");
+  margin-left: 62px;
+  margin-top: -10px;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.main-title {
+  font-style: italic;
+  color: gold;
+  margin-top: 0;
+  font-family: 'Games';
+  font-size: 50px;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-subtitle {
+  font-style: italic;
+  color: darkkhaki;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -52.5px;
+}
+
+.button {
+  padding-left: 40px;
+}
+
+.container-list-links {
+  display: grid;
+  width: 900px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  margin: auto;
+}
+
+.player-name-link {
+  color: silver;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tournament-basic {
+  color: gold;
+  text-decoration: none;
+}
+
+.player-name-link:hover {
+  text-decoration: underline;
+  color: gold;
+}
+
+.news-photo {
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.news-text {
+  color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.centered-flex {
+  display: flex;
+  justify-content: center;
+  height: 10000px !important;
+}
+
+.centered-flex svg {
+  height: 10000px !important;
+}
+
+.black-page {
+  background-color: black;
+}
+
+.white-page {
+  background-color: white;
+}
+
+.left-align-text {
+  text-align: left !important;
+}

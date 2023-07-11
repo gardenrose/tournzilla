@@ -1,0 +1,176 @@
+.formation-dialog {
+    position: absolute;
+    align-self: center;
+    align-items: center;
+    top: 20%;
+    left: 15%;
+}
+
+.formation-img {
+    width: 1100px;
+    height: 624px;
+    border-radius: 20px;
+}
+
+.close-formation {
+    position: absolute;
+    left: 49.5%;
+    top: 20%;
+    background-color: green;   
+    z-index: 999;
+}
+
+.change-formation {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    background-color: green;   
+    z-index: 999;
+}
+
+.formation-keeper {
+    position: absolute;
+    margin-top: -390px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.lfullback-4-2-3-1 {
+    left: 250px;
+    margin-top: -630px;
+}
+
+.rfullback-4-2-3-1 {
+    left: 250px;
+    margin-top: -170px;
+}
+
+.cback-4-2-3-1 {
+    left: 210px;
+    margin-top: -320px;
+}
+
+.cbacksweeper-4-2-3-1 {
+    left: 210px;
+    margin-top: -480px;
+}
+
+.ldefmidfield-4-2-3-1 {
+    left: 450px;
+    margin-top: -320px;
+}
+
+.rdefmidfield-4-2-3-1 {
+    left: 450px;
+    margin-top: -480px;
+}
+
+.lwinger-4-2-3-1 {
+    left: 630px;
+    margin-top: -630px;
+}
+
+.rwinger-4-2-3-1 {
+    left: 630px;
+    margin-top: -170px;
+}
+
+.attackmid-4-2-3-1 {
+    left: 600px;
+    margin-top: -390px;
+}
+
+.cforward-4-2-3-1 {
+    left: 800px;
+    margin-top: -390px;
+}
+
+
+
+
+.formation-keeper2 {
+    right: 0;
+}
+
+.lfullbackop-4-2-3-1 {
+    left: 730px;
+    margin-top: -630px;
+}
+
+.rfullbackop-4-2-3-1 {
+    left: 730px;
+    margin-top: -170px;
+}
+
+.cbackop-4-2-3-1 {
+    left: 765px;
+    margin-top: -320px;
+}
+
+.cbacksweeperop-4-2-3-1 {
+    left: 765px;
+    margin-top: -480px;
+}
+.ldefmidfieldop-4-2-3-1 {
+    left: 530px;
+    margin-top: -320px;
+}
+
+.rdefmidfieldop-4-2-3-1 {
+    left: 530px;
+    margin-top: -480px;
+}
+
+.lwingerop-4-2-3-1 {
+    left: 350px;
+    margin-top: -630px;
+}
+
+.rwingerop-4-2-3-1 {
+    left: 350px;
+    margin-top: -170px;
+}
+
+.attackmidop-4-2-3-1 {
+    left: 390px;
+    margin-top: -390px;
+}
+
+.cforwardop-4-2-3-1 {
+    left: 185px;
+    margin-top: -390px;
+}
+
+
+.formation-name {
+    background-color: white;
+    color: #062d7f;
+    margin-top: -50px;
+    max-width: 120px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.formation-circle {
+    font-size: 60px;
+}
+
+.inline-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.match-additional {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.small-image {
+    max-width: 25px;
+    max-height: 25px;
+}
